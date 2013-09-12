@@ -6,13 +6,13 @@ class Xbox_Control:
 		try:
 			pygame.init()
 		except:
-			pass
+			pass
 		try:
 			self.control=pygame.joystick.Joystick(joy)
 			self.control.init()
 		except:
-			print "No Hay control!"
-
+			print "No Xbox control detected!"
+
 		self.axis=[0,0,0,0,0,0]
 		self.buttons_raw=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 		self.buttons=[0,0]
