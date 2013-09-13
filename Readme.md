@@ -1,1 +1,1 @@
-Librarie to use USB Xbox controller with pygame for Robotics and other aplicattions
+Library to use USB Xbox controller with pygame for Robotics and other aplicattions.
